@@ -10,6 +10,7 @@ import java.util.Map;
 
 @RestController
 
+
 @RefreshScope
 
 public class ConfigTestRestController {

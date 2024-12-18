@@ -27,3 +27,4 @@ public class ProductItem {
     @Transient
     private Product product;
 }
+

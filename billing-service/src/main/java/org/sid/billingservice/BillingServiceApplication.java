@@ -33,6 +33,7 @@ public class BillingServiceApplication {
     {
         return args -> {
 
+
             Collection<Product> products = productRestClient.allProducts().getContent();
             Long customerId=1L;
             Customer customer = customerRestClient.findCustomerById(customerId);

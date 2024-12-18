@@ -23,6 +23,7 @@ public class Bill {
     private Long customerID;
     @OneToMany(mappedBy = "bill")
 
+
     private List<ProductItem> productItems;
     @Transient
     private Customer customer;
